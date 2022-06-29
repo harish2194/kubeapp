@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: vrpomq
+        app: vpromq
     spec:
       containers:
         - name: vpromq

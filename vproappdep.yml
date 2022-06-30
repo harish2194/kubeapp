@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: vproapp
-          image: vprofile/vprofileapp:V1
+          image: tomcat:8.0
           ports:
             - name: vproapp-port
               containerPort: 8080
